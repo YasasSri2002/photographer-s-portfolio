@@ -1,0 +1,9 @@
+#header {
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-image: url(4.webp);}
+    to {background-image: url(3.jpg);}
+  }
+

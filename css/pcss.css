@@ -1,0 +1,149 @@
+.logo{
+    width: 250px;
+
+}
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+    
+    }
+    
+    nav ul li a{
+     color:#000;
+     text-decoration: none;
+     font-size: 18px;
+     position: relative;
+    }
+    
+    nav ul li a::after{
+        content: '';
+        width:0;
+        height: 3px;
+        background: #FF0000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    
+    }
+    
+    nav ul li a:hover::after{
+     width:100%;
+     
+    }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: white;
+    width: 220px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-img{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1{
+background-image: url(img/bride.jpeg);
+}
+
+.card-2{
+    background-image: url(img/caro1.jpg);
+    }
+
+.card-3{
+        background-image: url(img/221.webp);
+        }
+
+.card h2{
+    padding: 5px;
+}
+
+.card p{
+    padding: 5px;
+}
+
+.card a{
+    background-color: #41f0ec;
+    text-decoration: none;
+    color: #070707;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.wed-img1{
+    flex-basis: 30%;
+    
+   
+}
+
+.wed-img1 img{
+    
+    width: 125%;
+    border-radius: 15px;
+    
+   
+}
+
+.wed{
+
+    flex-basis: 60%;
+}
+
+.wed p{
+
+    line-height: 1.5;
+}
+
+.wed h1{
+
+    text-align: center!important;
+}
+
+
+.wed h2{
+
+    color: #DCBFFF;
+    text-align: center!important;
+}
+
